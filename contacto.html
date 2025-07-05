@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contacta con la Facultad de Ciencias Sociales. Información de contacto, ubicación y formulario de consultas.">
+    <meta name="keywords" content="contacto, facultad, ciencias sociales, ubicación, consultas">
+    <title>Contacto - Facultad de Ciencias Sociales</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Saltar al contenido principal</a>
+    
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" role="banner">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" aria-label="Facultad de Ciencias Sociales - Página de inicio">
+                <strong>FCS</strong> - Ciencias Sociales
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" 
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <nav class="collapse navbar-collapse" id="navbarMain" role="navigation" aria-label="Navegación principal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="programa-academico.html">Programa Académico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="contacto.html" aria-current="page">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Page Header -->
+        <section class="page-header bg-primary text-white py-5" aria-labelledby="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 id="page-title" class="display-4 fw-bold mb-3">Contacto</h1>
+                        <p class="lead">Estamos aquí para ayudarte. Contáctanos de la forma que prefieras.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Information -->
+        <section class="py-5" aria-labelledby="contact-info-title">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h2 id="contact-info-title" class="display-5 fw-bold text-primary text-center mb-4">Información de Contacto</h2>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Address -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body p-4">
+                                <div class="contact-icon mb-3">
+                                    <i class="bi bi-geo-alt-fill text-primary" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="h5 card-title">Dirección</h3>
+                                <p class="card-text">
+                                    Av. Universidad 123<br>
+                                    Ciudad Universitaria<br>
+                                    Código Postal 12345<br>
+                                    Ciudad, País
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body p-4">
+                                <div class="contact-icon mb-3">
+                                    <i class="bi bi-telephone-fill text-primary" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="h5 card-title">Teléfono</h3>
+                                <p class="card-text">
+                                    <a href="tel:+1234567890" class="text-decoration-none">+1 (234) 567-890</a><br>
+                                    <a href="tel:+1234567891" class="text-decoration-none">+1 (234) 567-891</a><br>
+                                    <small class="text-muted">Lun - Vie: 8:00 AM - 6:00 PM</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-4">
+                        <div class="card border-0 shadow-sm h-100 text-center">
+                            <div class="card-body p-4">
+                                <div class="contact-icon mb-3">
+                                    <i class="bi bi-envelope-fill text-primary" aria-hidden="true"></i>
+                                </div>
+                                <h3 class="h5 card-title">Correo Electrónico</h3>
+                                <p class="card-text">
+                                    <a href="mailto:info@fcs.edu" class="text-decoration-none">info@fcs.edu</a><br>
+                                    <a href="mailto:admisiones@fcs.edu" class="text-decoration-none">admisiones@fcs.edu</a><br>
+                                    <small class="text-muted">Respuesta en 24 horas</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form -->
+        <section class="py-5 bg-light" aria-labelledby="contact-form-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 id="contact-form-title" class="display-5 fw-bold text-primary text-center mb-4">Envíanos un Mensaje</h2>
+                        <p class="lead text-center mb-5">Completa el formulario y nos pondremos en contacto contigo pronto.</p>
+
+                        <form id="contactForm" class="needs-validation" novalidate>
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label for="firstName" class="form-label">Nombre *</label>
+                                    <input type="text" class="form-control" id="firstName" name="firstName" required 
+                                           aria-describedby="firstNameHelp">
+                                    <div class="invalid-feedback">
+                                        Por favor ingresa tu nombre.
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <label for="lastName" class="form-label">Apellido *</label>
+                                    <input type="text" class="form-control" id="lastName" name="lastName" required 
+                                           aria-describedby="lastNameHelp">
+                                    <div class="invalid-feedback">
+                                        Por favor ingresa tu apellido.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="email" class="form-label">Correo Electrónico *</label>
+                                    <input type="email" class="form-control" id="email" name="email" required 
+                                           aria-describedby="emailHelp">
+                                    <div class="invalid-feedback">
+                                        Por favor ingresa un correo electrónico válido.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="phone" class="form-label">Teléfono</label>
+                                    <input type="tel" class="form-control" id="phone" name="phone" 
+                                           aria-describedby="phoneHelp">
+                                </div>
+                                <div class="col-12">
+                                    <label for="subject" class="form-label">Asunto *</label>
+                                    <select class="form-select" id="subject" name="subject" required 
+                                            aria-describedby="subjectHelp">
+                                        <option value="">Selecciona un asunto</option>
+                                        <option value="admisiones">Información sobre Admisiones</option>
+                                        <option value="programa">Consulta sobre Programa Académico</option>
+                                        <option value="carreras">Información sobre Carreras</option>
+                                        <option value="general">Consulta General</option>
+                                        <option value="otro">Otro</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Por favor selecciona un asunto.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="message" class="form-label">Mensaje *</label>
+                                    <textarea class="form-control" id="message" name="message" rows="5" required 
+                                              aria-describedby="messageHelp" 
+                                              placeholder="Escribe tu mensaje aquí..."></textarea>
+                                    <div class="invalid-feedback">
+                                        Por favor escribe tu mensaje.
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="newsletter" name="newsletter">
+                                        <label class="form-check-label" for="newsletter">
+                                            Suscribirme al boletín informativo
+                                        </label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        Enviar Mensaje
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Map Section -->
+        <section class="py-5" aria-labelledby="map-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 id="map-title" class="display-5 fw-bold text-primary text-center mb-4">Ubicación</h2>
+                        <p class="lead text-center mb-5">Encuéntranos en el corazón de la ciudad universitaria</p>
+                        
+                        <div class="map-container">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1234.5678901234567!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQyJzQ2LjEiTiA3NMKwMDAnMjEuNiJX!5e0!3m2!1ses!2sus!4v1234567890123" 
+                                        title="Ubicación de la Facultad de Ciencias Sociales"
+                                        allowfullscreen="" loading="lazy" 
+                                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Office Hours -->
+        <section class="py-5 bg-light" aria-labelledby="hours-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 id="hours-title" class="display-5 fw-bold text-primary text-center mb-4">Horarios de Atención</h2>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 card-title text-primary">Oficina de Admisiones</h3>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><strong>Lunes - Viernes:</strong> 8:00 AM - 6:00 PM</li>
+                                            <li class="mb-2"><strong>Sábados:</strong> 9:00 AM - 1:00 PM</li>
+                                            <li class="mb-2"><strong>Domingos:</strong> Cerrado</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm">
+                                    <div class="card-body">
+                                        <h3 class="h5 card-title text-primary">Secretaría Académica</h3>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2"><strong>Lunes - Viernes:</strong> 8:00 AM - 5:00 PM</li>
+                                            <li class="mb-2"><strong>Sábados:</strong> 8:00 AM - 12:00 PM</li>
+                                            <li class="mb-2"><strong>Domingos:</strong> Cerrado</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="h5 mb-3">Facultad de Ciencias Sociales</h3>
+                    <p class="mb-0">
+                        Formando líderes para el desarrollo social sostenible.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h3 class="h5 mb-3">Enlaces Rápidos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Inicio</a></li>
+                        <li><a href="programa-academico.html" class="text-white-50 text-decoration-none">Programa Académico</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Facultad de Ciencias Sociales. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html> 

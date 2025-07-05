@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Programa Académico de la Facultad de Ciencias Sociales. Conoce nuestras carreras, planes de estudio y oportunidades.">
+    <meta name="keywords" content="programa académico, carreras, ciencias sociales, plan de estudios, admisiones">
+    <title>Programa Académico - Facultad de Ciencias Sociales</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/styles.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link visually-hidden-focusable">Saltar al contenido principal</a>
+    
+    <!-- Header -->
+    <header class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" role="banner">
+        <div class="container">
+            <a class="navbar-brand" href="index.html" aria-label="Facultad de Ciencias Sociales - Página de inicio">
+                <strong>FCS</strong> - Ciencias Sociales
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMain" 
+                    aria-controls="navbarMain" aria-expanded="false" aria-label="Alternar navegación">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <nav class="collapse navbar-collapse" id="navbarMain" role="navigation" aria-label="Navegación principal">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="programa-academico.html" aria-current="page">Programa Académico</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main id="main-content" role="main">
+        <!-- Page Header -->
+        <section class="page-header bg-primary text-white py-5" aria-labelledby="page-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <h1 id="page-title" class="display-4 fw-bold mb-3">Programa Académico</h1>
+                        <p class="lead">Descubre nuestras carreras y oportunidades de formación profesional</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programs Section -->
+        <section class="py-5" aria-labelledby="programs-title">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h2 id="programs-title" class="display-5 fw-bold text-primary text-center mb-4">Nuestras Carreras</h2>
+                        <p class="lead text-center">Formamos profesionales comprometidos con el desarrollo social</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <!-- Psychology Program -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm" role="article">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="program-icon me-3">
+                                        <i class="bi bi-brain text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="h4 card-title mb-0">Psicología</h3>
+                                </div>
+                                <p class="card-text mb-3">
+                                    Programa integral que forma psicólogos capaces de comprender y abordar 
+                                    los desafíos psicológicos de individuos y comunidades.
+                                </p>
+                                <ul class="list-unstyled mb-3">
+                                    <li><strong>Duración:</strong> 5 años</li>
+                                    <li><strong>Modalidad:</strong> Presencial</li>
+                                    <li><strong>Créditos:</strong> 240</li>
+                                </ul>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#psychologyModal">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sociology Program -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm" role="article">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="program-icon me-3">
+                                        <i class="bi bi-people text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="h4 card-title mb-0">Sociología</h3>
+                                </div>
+                                <p class="card-text mb-3">
+                                    Análisis profundo de las estructuras sociales y su impacto en el desarrollo 
+                                    de las comunidades y sociedades.
+                                </p>
+                                <ul class="list-unstyled mb-3">
+                                    <li><strong>Duración:</strong> 4 años</li>
+                                    <li><strong>Modalidad:</strong> Presencial</li>
+                                    <li><strong>Créditos:</strong> 200</li>
+                                </ul>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sociologyModal">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social Work Program -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm" role="article">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="program-icon me-3">
+                                        <i class="bi bi-heart text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="h4 card-title mb-0">Trabajo Social</h3>
+                                </div>
+                                <p class="card-text mb-3">
+                                    Formación de profesionales comprometidos con la justicia social y el 
+                                    bienestar de las comunidades vulnerables.
+                                </p>
+                                <ul class="list-unstyled mb-3">
+                                    <li><strong>Duración:</strong> 4 años</li>
+                                    <li><strong>Modalidad:</strong> Presencial</li>
+                                    <li><strong>Créditos:</strong> 200</li>
+                                </ul>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#socialWorkModal">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Anthropology Program -->
+                    <div class="col-lg-6">
+                        <div class="card h-100 border-0 shadow-sm" role="article">
+                            <div class="card-body p-4">
+                                <div class="d-flex align-items-center mb-3">
+                                    <div class="program-icon me-3">
+                                        <i class="bi bi-globe text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="h4 card-title mb-0">Antropología</h3>
+                                </div>
+                                <p class="card-text mb-3">
+                                    Estudio de la diversidad cultural y la evolución humana para comprender 
+                                    las sociedades pasadas y presentes.
+                                </p>
+                                <ul class="list-unstyled mb-3">
+                                    <li><strong>Duración:</strong> 4 años</li>
+                                    <li><strong>Modalidad:</strong> Presencial</li>
+                                    <li><strong>Créditos:</strong> 200</li>
+                                </ul>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#anthropologyModal">
+                                    Ver Detalles
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Curriculum Section -->
+        <section class="py-5 bg-light" aria-labelledby="curriculum-title">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-12">
+                        <h2 id="curriculum-title" class="display-5 fw-bold text-primary text-center mb-4">Plan de Estudios</h2>
+                        <p class="lead text-center">Estructura académica diseñada para una formación integral</p>
+                    </div>
+                </div>
+
+                <div class="row g-4">
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div class="curriculum-phase mb-3">
+                                <div class="phase-number">1</div>
+                            </div>
+                            <h3 class="h5">Fundamentos</h3>
+                            <p class="small">Introducción a las ciencias sociales y metodologías básicas</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div class="curriculum-phase mb-3">
+                                <div class="phase-number">2</div>
+                            </div>
+                            <h3 class="h5">Especialización</h3>
+                            <p class="small">Cursos específicos de cada disciplina</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div class="curriculum-phase mb-3">
+                                <div class="phase-number">3</div>
+                            </div>
+                            <h3 class="h5">Investigación</h3>
+                            <p class="small">Metodologías avanzadas y proyectos de investigación</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="text-center">
+                            <div class="curriculum-phase mb-3">
+                                <div class="phase-number">4</div>
+                            </div>
+                            <h3 class="h5">Práctica</h3>
+                            <p class="small">Internados y trabajo de grado</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Admission Requirements -->
+        <section class="py-5" aria-labelledby="admission-title">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 id="admission-title" class="display-5 fw-bold text-primary text-center mb-4">Requisitos de Admisión</h2>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body">
+                                        <h3 class="h5 card-title text-primary">Documentos Requeridos</h3>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2">✓ Certificado de bachillerato</li>
+                                            <li class="mb-2">✓ Acta de nacimiento</li>
+                                            <li class="mb-2">✓ Cédula de identidad</li>
+                                            <li class="mb-2">✓ 2 fotografías tamaño carnet</li>
+                                            <li class="mb-2">✓ Formulario de inscripción</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card border-0 shadow-sm h-100">
+                                    <div class="card-body">
+                                        <h3 class="h5 card-title text-primary">Proceso de Admisión</h3>
+                                        <ul class="list-unstyled">
+                                            <li class="mb-2">1. Inscripción en línea</li>
+                                            <li class="mb-2">2. Entrevista personal</li>
+                                            <li class="mb-2">3. Prueba de aptitud</li>
+                                            <li class="mb-2">4. Revisión de documentos</li>
+                                            <li class="mb-2">5. Confirmación de matrícula</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-5 bg-primary text-white" aria-labelledby="cta-title">
+            <div class="container">
+                <div class="row text-center">
+                    <div class="col-lg-8 mx-auto">
+                        <h2 id="cta-title" class="display-6 fw-bold mb-4">
+                            ¿Tienes dudas sobre el programa?
+                        </h2>
+                        <p class="lead mb-4">
+                            Nuestro equipo de admisiones está listo para ayudarte a elegir 
+                            la carrera perfecta para tu futuro.
+                        </p>
+                        <a href="contacto.html" class="btn btn-light btn-lg me-3" 
+                           role="button" aria-label="Contactar para más información">
+                            Contactar
+                        </a>
+                        <a href="index.html" class="btn btn-outline-light btn-lg" 
+                           role="button" aria-label="Volver a la página principal">
+                            Volver al Inicio
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-4" role="contentinfo">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3 class="h5 mb-3">Facultad de Ciencias Sociales</h3>
+                    <p class="mb-0">
+                        Formando líderes para el desarrollo social sostenible.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <h3 class="h5 mb-3">Enlaces Rápidos</h3>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html" class="text-white-50 text-decoration-none">Inicio</a></li>
+                        <li><a href="contacto.html" class="text-white-50 text-decoration-none">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p class="mb-0">&copy; 2024 Facultad de Ciencias Sociales. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/scripts.js"></script>
+</body>
+</html> 
